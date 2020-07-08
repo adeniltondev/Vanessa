@@ -3509,3 +3509,40 @@ border-radius: 2em;
     font-weight: 500;
     line-height: 19px;
 }
+.colonoscopia_diagnotica{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .colonoscopia_diagnotica img{
+    width: 70%;
+  }
+  .colonoscopia_terapeutica{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .colonoscopia_terapeutica img{
+    width: 70%;
+  }
+  .endoscopia_terapeutica{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .endoscopia_terapeutica img{
+    width: 70%;
+  }
+  .endosopia_diagnostica{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .endosopia_diagnostica img{
+    width: 70%;
+  }
+  .estomagoimg{
+    margin-top: 12px;
+  }
+  .pancreasimg{
+    margin-top: 6px;
+  }
+  .intestinoimg{
+  margin-top: 14px;
+  }
