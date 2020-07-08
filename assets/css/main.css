@@ -490,11 +490,13 @@ a {
     position: relative;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    border-radius: 5px;
 }
 .ttm-box-bottom-content:hover {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
     color:#fff;
+    border-radius: 5px;
 }
 .ttm-box-bottom-content:hover::before {
     width: 100%;
@@ -507,6 +509,7 @@ a {
     width: 0;
     height: 100%;
     z-index: -1;
+    border-radius: 5px;
     content: '';
     position: absolute;
     left: 0;
@@ -3452,11 +3455,14 @@ section.error-404 .page-content p {
     background-color: #ad8fc3 !important;
 }
 .ttm-tabs:not(.ttm-tabs-style-classic) ul.tabs li a {
-    border-radius: 2em;
+border-radius: 2em;
     color: #fff;
     font-weight: 600;
     font-size: 14px;
-    background: #00ccb9;
+    background: #399fa5;
+    box-shadow: 0 10px 20px 0px rgba(137, 173, 255, 0.2);
+    position: relative;
+    border: 0px;
 }
 .featured-imagebox-service .ttm-box-bottom-content .featured-title h5, .featured-imagebox.featured-imagebox-post .featured-title h5 {
     line-height: 76px;
@@ -3467,4 +3473,34 @@ section.error-404 .page-content p {
     margin: auto;
     padding-bottom: 65px;
     padding-top: 2px;
+}
+.titulotabs {
+    margin-top: 65px;
+    line-height: 0;
+    font-size: 24px !important;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.skill-desc ul li span {
+    padding-left: 34px;
+    display: block;
+    position: relative;
+    margin-bottom: 7px;
+}
+.skill-desc ul li span i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    background-color: #ad8fc3;
+    color: #ffffff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    font-size: 37px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    margin-right: 13px;
 }
