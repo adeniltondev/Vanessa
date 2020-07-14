@@ -3555,3 +3555,7 @@ border-radius: 2em;
   .togglepadding{
       padding: 15px !important;
   }
+  .togglepadding:active{
+      background: #fff !important;
+      color:#fff;
+  }
