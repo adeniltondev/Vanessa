@@ -3546,3 +3546,12 @@ border-radius: 2em;
   .intestinoimg{
   margin-top: 14px;
   }
+  .margin{
+      margin: auto;
+  }
+  .togglemargin{
+      margin-bottom: 10px;
+  }
+  .togglepadding{
+      padding: 15px !important;
+  }
