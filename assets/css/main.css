@@ -3559,3 +3559,8 @@ border-radius: 2em;
       background: #fff !important;
       color:#fff;
   }
+  /* .togglepadding:active{
+    background-color: transparent !important;
+    border: 2px solid rgba(227, 227, 227, .7) !important;
+    border-radius: 0px !important;
+  } */
