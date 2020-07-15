@@ -1557,6 +1557,7 @@
     right: 57px;
     position: relative;
     padding-bottom: 39px;
+    max-width: 155px;
 }
 
 .featured-icon-box .ttm-icon.ttm-icon_element-fill.ttm-icon_element-size-md {
