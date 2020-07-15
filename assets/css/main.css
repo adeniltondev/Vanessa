@@ -3564,3 +3564,21 @@ border-radius: 2em;
     border: 2px solid rgba(227, 227, 227, .7) !important;
     border-radius: 0px !important;
   } */
+  .titulobemvindo{
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: none;  
+}
+.tituloespecialidadeshome{
+    text-align: center;
+    margin-bottom: 137px;
+    margin-top: -73px;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: none;
+}
+.boxeticahome{
+    margin-top: 100px;
+}
