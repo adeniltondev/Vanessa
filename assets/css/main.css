@@ -3780,3 +3780,21 @@ border-radius: 2em;
     max-width: 100% !important;
     padding-left: 0px !important;
   }
+  .btn-primary .fa-chevron-right {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    line-height: 33px;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #00ccb9;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 5px;
+}
