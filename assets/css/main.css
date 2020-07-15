@@ -3488,22 +3488,39 @@ border-radius: 2em;
     position: relative;
     margin-bottom: 7px;
 }
-.skill-desc ul li span i {
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    text-align: center;
-    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-    background-color: #ad8fc3;
-    color: #ffffff;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    display: inline-block;
-    font-size: 37px;
-    position: absolute;
-    left: 0;
-    top: -2px;
-    margin-right: 13px;
+.skill-desc ul li span i svg{
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    text-align: center !important;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40% !important;
+    background-color: #ad8fc3 !important;
+    color: #ffffff !important;
+    -webkit-transition: 0.5s !important;
+    transition: 0.5s !important;
+    display: inline-block !important;
+    font-size: 37px !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: -2px !important;
+    margin-right: 13px !important;
+}
+.fa-check{
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    text-align: center !important;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40% !important;
+    background-color: #fff !important;
+    color: #7b499f !important;
+    -webkit-transition: 0.5s !important;
+    transition: 0.5s !important;
+    display: inline-block !important;
+    font-size: 37px !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: -2px !important;
+    margin-right: 13px !important;
 }
 .skill-desc{
     font-weight: 500;
@@ -3755,4 +3772,11 @@ border-radius: 2em;
   .fa-check-circle{
       color:#7b499f;
   }
-  
+  .ulespecialidadetabs{
+    margin-top: 10px !important;
+  }
+  .ulespecialidadetabs li{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px !important;
+  }
