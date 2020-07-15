@@ -3582,3 +3582,16 @@ border-radius: 2em;
 .boxeticahome{
     margin-top: 100px;
 }
+@media(min-width:360px) and (max-width:640px){
+    .desktop{
+     display: none !important;
+ }
+}
+@media(min-width:1080px) and (max-width:1920px){
+ .mobile{
+  display: none !important;
+}}
+ @media(min-width:360px) and (max-width:640px){
+   .mobilemodal{
+    width:165px;
+ }}
