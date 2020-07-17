@@ -3941,10 +3941,12 @@ border-radius: 2em;
       .JCage2 {
         position: relative;
         top: 50%;
-        /* left: 35%; */
+        /* left: 100%; */
         width: 200px;
         display: inline;
         padding-right: 50px;
+        text-align:center;
+        margin: auto;
       }
       .icon-mouse-scroll,
 .icon-mouse-scroll:before {
@@ -4218,6 +4220,10 @@ border-radius: 2em;
 .titulo-sobre-doutora{
     margin-top: 47px;
     margin-bottom: -15px;
-    position: relative;
-    left: 251px;
+    text-align: center;
+}
+.soumedica{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
 }
