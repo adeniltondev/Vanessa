@@ -819,6 +819,11 @@
 .ttm-btn.ttm-btn-size-md {
     font-size: 16px;
     padding: 10px 38px 12px 38px;
+    box-shadow: 0 0 13px 1px #dedede;
+    width: 100%;
+}
+.ttm-btn.ttm-btn-size-md:hover{
+    background-color: #7e42ab !important;
 }
 
 .ttm-btn.ttm-btn-size-md.ttm-icon-btn-right {
@@ -2813,9 +2818,9 @@ body {
 .wrap-form.ttm-contactform span.text-input textarea {
     background-color: transparent;
     border: none;
-    border: 1px solid rgba(119, 119, 119, .2);
-    border-radius: 0;
+    border-radius: 11px;
     padding: 9px 15px;
+    box-shadow: 0 0 13px 1px #dedede;
 }
 
 .wrap-form.ttm-contactform input[type="submit"] {
@@ -4557,10 +4562,15 @@ ul.ttm-list {
     border-radius: 50px;
     position: relative;
     top: 7px;
+    font-size: 16px;
+    padding: 10px 38px 12px 38px;
+    box-shadow: 0 0 13px 1px #dedede;
+    width: 100%;
 }
 
 .btn-whatsapp:hover {
     color: #fff !important;
+    background-color: #7e42ab;
 }
 
 .appointment-content {
