@@ -480,6 +480,7 @@
     background-position:center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    border-radius: 5px;
 }
 
 .col-bg-img-ten.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
@@ -5099,10 +5100,12 @@ Subscribe Area CSS
 }
 .comofunciona{
     margin-top: -111px;
-    margin-bottom: 150px;
+    margin-bottom: 150px;  
 }
 .colorcomofunciona{
     background: #ad8fc3 !important;
+    box-shadow: 0 0 12px 6px #f9fbfb;
+    border-radius: 5px;
 }
 .comofuncionasobre{
     color:#fff !important;
