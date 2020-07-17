@@ -3889,5 +3889,10 @@ border-radius: 2em;
     span {
         transition: all 0.3s ease-out;
         color: #ffffff;
-      }  
+}
+.card-contato:hover
+    i {
+        transition: all 0.3s ease-out;
+        color: #ffffff !important;
+}  
   
