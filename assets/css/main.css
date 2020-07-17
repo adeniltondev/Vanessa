@@ -3832,3 +3832,62 @@ border-radius: 2em;
 .borda-radius{
     border-radius:5px ;
 }
+.card-contato {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    color:#000;
+}
+.card-contato p{
+    color:#7d7d7d;
+}
+.card-contato h5{
+    color:#7d7d7d !important;
+}
+.card-contato a{
+    color:#7d7d7d;
+}
+.card-contato span{
+    color:#7d7d7d;
+}
+.card-contato:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #7b499f;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+.card-contato:hover:before {
+      transform: scale(27);
+    }
+.card-contato:hover 
+    p {
+      transition: all 0.3s ease-out;
+      color: #fff;
+    }
+.card-contato:hover    
+    h5 {
+      transition: all 0.3s ease-out;
+      color: #ffffff !important;
+    }
+.card-contato:hover
+    span {
+        transition: all 0.3s ease-out;
+        color: #ffffff;
+      }  
+  
