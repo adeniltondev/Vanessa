@@ -554,3 +554,9 @@ jQuery('#totop').on( "click", function() {      // When arrow is clicked
     });
 
 })(jQuery);
+// window.scroll({
+//   top: 2500,
+//   bottom:2500, 
+//   left: 0, 
+//   behavior: 'smooth'
+// });

@@ -1592,7 +1592,7 @@
 }
 
 .featured-title h5 {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 28px;
     margin-bottom: 5px;
 }
@@ -1929,13 +1929,15 @@ body {
     position: absolute;
     display: inline-block;
     bottom: 10px;
-    width: 61px;
+    width: 39%;
     height: 61px;
     text-align: center;
     text-transform: uppercase;
     font-size: 12px;
     padding-top: 9px;
     left: 10px;
+    background-color: #ad8fc3 !important;
+    border-radius: 5px;
 }
 
 .featured-imagebox-post.ttm-box-view-top-image .ttm-box-post-date span {
@@ -5117,16 +5119,19 @@ Subscribe Area CSS
 .listacomofunciona {
     margin: 0px;
     padding: 0px;
+    
 }
 
 .listacomofunciona li {
     font-size: 18px;
     color:#fff;
+    position: relative !important;
 }
 
 .listacomofunciona i {
     margin-right: 10px;
     color: #fff;
+    position: relative !important;
 }
 .listacomofunciona i:hover{
     color: #fff;

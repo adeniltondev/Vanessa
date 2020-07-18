@@ -233,7 +233,10 @@ ul {
     margin: 0;
     padding: 0 0 0 25px;
 }
-
+html{
+    scroll-behavior: smooth;
+    transition: steps(0);
+}
 body {
     font-family: "lato", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -3597,7 +3600,8 @@ border-radius: 2em;
     text-transform: none;
 }
 .boxeticahome{
-    margin-top: 100px;
+    margin-top: 130px;
+    margin-bottom: 149px;
 }
 @media(min-width:360px) and (max-width:640px){
     .desktop{
@@ -3779,6 +3783,7 @@ border-radius: 2em;
     flex: 0 0 100% !important;
     max-width: 100% !important;
     padding-left: 0px !important;
+    font-size: 14px;
   }
   .btn-primary .fa-chevron-right  {
     position: absolute;
@@ -3836,14 +3841,15 @@ border-radius: 2em;
     display: block;
     position: relative;
     max-width: 100%;
-    background-color: #f2f8f9;
+    background-color: #fbfbfb;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-    color:#000;
+    color: #000;
+    box-shadow: 0 0 9px 2px #e7e7e7;
 }
 .card-contato p{
     color:#7d7d7d;
@@ -3858,18 +3864,18 @@ border-radius: 2em;
     color:#7d7d7d;
 }
 .card-contato:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: -16px;
-      right: -16px;
-      background: #7b499f;
-      height: 32px;
-      width: 32px;
-      border-radius: 32px;
-      transform: scale(1);
-      transform-origin: 50% 50%;
-      transition: transform 0.25s ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: -16px;
+    background: #7b499f;
+    height: 100%;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+    top: 0;
     }
   
 .card-contato:hover:before {
@@ -3894,6 +3900,10 @@ border-radius: 2em;
     i {
         transition: all 0.3s ease-out;
         color: #ffffff !important;
+}
+.card-contato:hover path, svg{
+    color:#fff;
+    transition: all 0.3s ease-out;
 }  
 .card-sobre {
     display: block;
@@ -4241,4 +4251,18 @@ border-radius: 2em;
     line-height: 20px;
     padding-top: 23px;
     font-weight: 300;
+}
+.listacomofunciona li {
+    position: relative !important;
+}
+
+.listacomofunciona i {
+    position: relative !important;
+}
+.fa-phone-office {
+    top: 7px;
+    font-size: 20px;
+    color: #ad8fc3;
+    position: absolute;
+    left: 0px;
 }
