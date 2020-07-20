@@ -4560,7 +4560,7 @@ ul.ttm-list {
 }
 
 .btn-whatsapp {
-    background-color: #ad8fc3;
+    background-color: #a6555b;
     color: white;
     border-radius: 50px;
     position: relative;
@@ -4573,7 +4573,7 @@ ul.ttm-list {
 
 .btn-whatsapp:hover {
     color: #fff !important;
-    background-color: #7e42ab;
+    background-color: #eb7565;
 }
 
 .appointment-content {
@@ -4790,7 +4790,7 @@ option {
 }
 
 .whatsapp {
-    background-color: #19ce67;
+    background-color: #a6555b;
     position: fixed;
     margin-bottom: 56px;
     bottom: 0px;
@@ -5293,7 +5293,7 @@ text-align: center;
     top: -20px;
 }
 .btn-saiba-mais-home{
-    background-color: #ad8fc3 !important;
+    background-color: #a6555b !important;
     color: white !important;
     width: 58% !important;
     border-radius: 50px !important;
@@ -5308,7 +5308,7 @@ text-align: center;
     background: none !important;
 }
 .btn-saiba-mais-home:hover{
-    background-color: #4ca8af !important;
+    background-color: #a6555b !important;
     color:#fff;
 }
 .tracoquemsoueu h5::after{
