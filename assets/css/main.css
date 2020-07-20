@@ -3901,7 +3901,7 @@ border-radius: 2em;
         transition: all 0.3s ease-out;
         color: #ffffff !important;
 }
-.card-contato:hover path, svg{
+.card-contato:hover path{
     color:#fff;
     transition: all 0.3s ease-out;
 }  
@@ -4252,8 +4252,10 @@ border-radius: 2em;
     padding-top: 23px;
     font-weight: 300;
 }
-.listacomofunciona li {
+.listacomofunciona svg {
     position: relative !important;
+    background: transparent !important;
+    color:#fff !important;
 }
 
 .listacomofunciona i {
@@ -4265,4 +4267,8 @@ border-radius: 2em;
     color: #ad8fc3;
     position: absolute;
     left: 0px;
+}
+.img-especialidade{
+    box-shadow: 0 0 12px 6px #f9fbfb;
+    border-radius: 5px;
 }
