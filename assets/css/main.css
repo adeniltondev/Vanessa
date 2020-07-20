@@ -3515,7 +3515,7 @@ border-radius: 2em;
     text-align: center !important;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40% !important;
     background-color: #fff !important;
-    color: #a6555b !important;
+    color: #e59e96 !important;
     -webkit-transition: 0.5s !important;
     transition: 0.5s !important;
     display: inline-block !important;
@@ -3841,7 +3841,7 @@ border-radius: 2em;
     display: block;
     position: relative;
     max-width: 100%;
-    background-color: #fbfbfb;
+    background-color: #fff;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
@@ -4264,7 +4264,7 @@ border-radius: 2em;
 .fa-phone-office {
     top: 7px;
     font-size: 20px;
-    color: #a6555b;
+    color: #e59e96;
     position: absolute;
     left: 0px;
 }
