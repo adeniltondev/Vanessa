@@ -1252,7 +1252,7 @@ div.product .summary .price .Price-amount,
 .featured-imagebox-team.ttm-team-box-view-overlay-style2 .featured-title h5 a:hover,
 .ttm-icon.ttm-icon_element-color-skincolor i,
 .widget ul#menu-footer-services li a:hover {
-    color: #9775af;
+    color: #a6555b;
 }
 
 h1.ttm-textcolor-skincolor,
@@ -4112,7 +4112,7 @@ border-radius: 2em;
     -webkit-animation-name: scroll;
     animation-name: scroll;
     font-size: 36px;
-    color: #ad8fc3;
+    color: #a6555b;
 }
 
 @-webkit-keyframes scroll {
