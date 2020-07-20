@@ -798,7 +798,7 @@
 
 .ttm-btn.ttm-btn-size-sm.ttm-icon-btn-right {
     padding-right: 39px;
-    color:#4ca8af;
+    color:#a6555b;
 }
 
 .ttm-btn.ttm-btn-size-sm.ttm-icon-btn-left {
@@ -1936,7 +1936,7 @@ body {
     font-size: 12px;
     padding-top: 9px;
     left: 10px;
-    background-color: #ad8fc3 !important;
+    background-color: #e59e96 !important;
     border-radius: 5px;
 }
 
@@ -4910,14 +4910,14 @@ option {
 }
 
 .tp-caption.button.black-button {
-    background: #ad8fc3;
+    background: rgb(166, 85, 91);
     border: 0px;
 }
 .tp-caption.button.black-button:hover{
-    background: #4ca8af;
+    background: rgb(166, 85, 91);
 }
 .quem{
-    color:#4ca8af !important;
+    color:rgb(166, 85, 91) !important;
 }
 .nomecopy{
     color:#888 !important;
@@ -5044,11 +5044,11 @@ Subscribe Area CSS
     color: #ffffff;
   }
   .btn-primary {
-    background: #ad8fc3;
+    background: #a6555b;
     color: #ffffff;
 }
 .btn-primary:hover{
-    background: #4ba7ae;
+    background: #a6555b;
 }
 .btn {
     border: none;

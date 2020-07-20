@@ -3462,7 +3462,7 @@ border-radius: 2em;
     color: #fff;
     font-weight: 600;
     font-size: 14px;
-    background:#c44e56;
+    background:#e59e96;
     box-shadow: 0 10px 20px 0px rgba(137, 173, 255, 0.2);
     position: relative;
     border: 0px;
@@ -3676,7 +3676,7 @@ border-radius: 2em;
     position: absolute;
     left: 0;
     top: 0;
-    color: #a6555b;
+    color: #e59e96;
     font-size: 35px;
   }
   
@@ -3774,7 +3774,7 @@ border-radius: 2em;
     margin-top: 35px;
   }
   .fa-check-circle{
-      color:#7b499f;
+      color:#e59e96;
   }
   .ulespecialidadetabs{
     margin-top: 10px !important;
@@ -3934,7 +3934,7 @@ border-radius: 2em;
       z-index: -1;
       top: -16px;
       right: -16px;
-      background: #a6555b;
+      background: #e59e96;
       height: 32px;
       width: 32px;
       border-radius: 32px;
@@ -4279,4 +4279,7 @@ border-radius: 2em;
 }
 .btn-contato:hover{
     background: #a6555b !important;
+}
+.post-title h5 {
+    line-height: 29px !important;
 }
