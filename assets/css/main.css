@@ -2683,7 +2683,7 @@ ul.ttm-pricelist-block li span {
     display: block;
     background-color: #fff;
     font-size: 16px;
-    color: #4ba7ae;
+    color: #a6555b;
 }
 
 /** menu-footer-services **/
@@ -3798,7 +3798,7 @@ border-radius: 2em;
     line-height: 33px;
     color: #ffffff;
     border-radius: 50%;
-    background-color: #00ccb9;
+    background-color: #a6555b;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding: 5px;

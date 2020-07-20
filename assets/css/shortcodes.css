@@ -4757,7 +4757,7 @@ option {
 }
 
 .btn-agendar {
-    background-color: #ad8fc3;
+    background-color:#a6555b;
     color: white;
     top: 7px;
     border: none;
@@ -4849,14 +4849,14 @@ option {
 .btn-agendarfooter {
     background: #ffffff;
     border-radius: 50px;
-    color: #4ba7ae;
+    color: #a6555b;
     width: 82%;
     line-height: 0px;
     padding-top: 15px;
     padding-bottom: 18px;
 }
-.btn-agendarfooter:hover {
-    background: #4ba7ae;
+.btn-agendarfooter:hover a{
+    background:#a6555b;
     border-radius: 50px;
     color: #fff;
     width: 82%;
@@ -4929,7 +4929,7 @@ option {
 Subscribe Area CSS
 =================================================*/
 .subscribe-area {
-    border-bottom: 1px solid #4ebac2;
+    border-bottom: 1px solid #ffffff96;
     margin-bottom: 60px;
     padding-bottom: 60px;
     padding-top: 60px;
