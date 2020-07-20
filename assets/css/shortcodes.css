@@ -5140,7 +5140,7 @@ Subscribe Area CSS
    background: #000 !important;
 }
 .bg{
-    background-color: #ad8fc3 !important;
+    background-color: #a6555b !important;
 }
 
 @media (min-width: 576px){
@@ -5342,8 +5342,8 @@ text-align: center;
     margin-top: 69px;
 }
 .ttm-list.ttm-list-style-icon li i{
-   color:#ad8fc3;
+   color:#a6555b;
 }
 .saibamaisespe h5::before{
-    color:#ad8fc3 !important;
+    color:#a6555b !important;
 }
