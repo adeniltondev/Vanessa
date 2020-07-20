@@ -2549,7 +2549,7 @@ ul.ttm-pricelist-block li span {
 
 .footer .ttm-textcolor-white {
     color: rgba(255, 255, 255, .6);
-    background: #4ba7ae;
+    background: #a6555b;
 }
 
 .footer .widget .ttm-btn.ttm-btn-size-md {
@@ -2559,7 +2559,7 @@ ul.ttm-pricelist-block li span {
 /** FirstFooter **/
 .first-footer,
 .bottom-footer-text {
-    background-color: #252d32;
+    background-color: #fff;
 }
 
 .first-footer .widget-area .widget {

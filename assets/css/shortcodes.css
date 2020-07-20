@@ -4920,7 +4920,7 @@ option {
     color:#4ca8af !important;
 }
 .nomecopy{
-    color:#fff !important;
+    color:#888 !important;
 }
 .bgroxo{
     background: #a6555b !important;
@@ -4998,7 +4998,7 @@ Subscribe Area CSS
     padding: 1px 50px 0 25px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    background: #ad8fc3;
+    background: #a6555b;
     height: 55px;
     color: #ffffff;
     display: inline-block;
@@ -5028,7 +5028,7 @@ Subscribe Area CSS
   .newsletter-form button:hover, .newsletter-form button:focus {
     -webkit-box-shadow: unset !important;
             box-shadow: unset !important;
-    background: #4ba7ae !important;
+    background: #a6555b !important;
     color: #ffffff !important;
   }
   
