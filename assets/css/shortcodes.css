@@ -5160,13 +5160,13 @@ Subscribe Area CSS
 .redessobre li a{
     display: block;
     color: #fff;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
     border-radius: 50%;
     background-color: #a6555b;
     text-align: center;
-    font-size: 14px;
+    font-size: 19px;
 }
 .redessobre li{
     display: inline-block;

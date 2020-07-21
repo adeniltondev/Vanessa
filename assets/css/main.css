@@ -2617,7 +2617,9 @@ ul.ttm-pricelist-block li span {
     max-height: 150px;
     width: auto;
     position: relative;
-    top: -31px;
+    top: -2px;
+    right: 32px;
+    margin-bottom: 24px;
 }
 
 .second-footer .separator .sep-line {
