@@ -232,7 +232,7 @@ $('.ttm-tabs').each(function() {
 /*------------------------------------------------------------------------------*/
 
 /*https://www.antimath.info/jquery/quick-and-simple-jquery-accordion/*/
-$('.toggle').eq(0).addClass('active').find('.toggle-content').css('display','none');
+$('.toggle').eq(0).addClass('active').find('.toggle-content').css('display','block');
 $('.accordion .toggle-title').on('click',function(){
     $(this).siblings('.toggle-content').slideToggle('fast');
     $(this).parent().toggleClass('active');

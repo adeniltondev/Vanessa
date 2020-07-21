@@ -518,7 +518,7 @@ a {
     left: 0;
     /* color:#fff; */
     top: 0;
-    background-color: #a6555b;
+    background-color: #e59e96;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -4330,3 +4330,8 @@ border-radius: 2em;
     margin-left: 0px;
     padding-left: 10px;
   }
+  .titulofaq {
+    /* margin-top: 80px; */
+    font-size: 25px !important;
+    /* margin-bottom: -17px !important; */
+}
