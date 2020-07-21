@@ -2710,11 +2710,24 @@ body {
     content: "\e61a";
     font-weight: bold;
     font-size: 16px;
+    background-color: #a6555b;
+    color: #ffffff !important;
+    height: 100%;
+    top: 0px;
+    line-height: 30px;
+    right: 0;
+    padding: 10px;
 }
 
 .accordion .toggle.active .toggle-title:after {
     content: "\e622";
     font-family: "themify";
+    background-color: white;
+    color: #a6555b !important;
+    height: 100%;
+    top: 0px;
+    line-height: 30px;
+    right: 0;
 }
 
 .accordion .toggle-content {

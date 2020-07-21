@@ -3576,6 +3576,7 @@ border-radius: 2em;
   }
   .togglepadding{
       padding: 15px !important;
+      border-radius: 3px !important;
   }
   .togglepadding:active{
       background: #fff !important;
@@ -4292,4 +4293,10 @@ border-radius: 2em;
 .cuidar-home h5::after{
     color:#fff !important;
     background: #fff !important;
+}
+.fa-caret-right{
+    color:#a6555b;
+}
+.fa-caret-left{
+    color:#a6555b;
 }
