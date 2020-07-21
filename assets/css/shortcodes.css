@@ -4540,9 +4540,10 @@ ul.ttm-list {
 }
 
 .logo {
-    width: 8%;
+    width: 19%;
     left: 0px;
     position: absolute;
+    margin-top: 22px;
 }
 
 .ttm-stickable-header.fixed-header {
