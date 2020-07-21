@@ -431,6 +431,7 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    border-radius: 5px;
 }
 
 .col-bg-img-three.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
@@ -4572,8 +4573,9 @@ ul.ttm-list {
 }
 
 .btn-whatsapp:hover {
-    color: #fff !important;
-    background-color: #eb7565;
+    color: #000 !important;
+    background-color: #fba199;
+    font-weight: 400;
 }
 
 .appointment-content {
@@ -4914,7 +4916,8 @@ option {
     border: 0px;
 }
 .tp-caption.button.black-button:hover{
-    background: rgb(166, 85, 91);
+    background: #fba199;
+    color:#000;
 }
 .quem{
     color:rgb(166, 85, 91) !important;

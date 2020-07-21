@@ -4283,3 +4283,11 @@ border-radius: 2em;
 .post-title h5 {
     line-height: 29px !important;
 }
+.qualificacao h5::after{
+    color:#fff !important;
+    background: #fff !important;
+}
+.cuidar-home h5::after{
+    color:#fff !important;
+    background: #fff !important;
+}
