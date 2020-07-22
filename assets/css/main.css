@@ -4335,3 +4335,9 @@ border-radius: 2em;
     font-size: 25px !important;
     /* margin-bottom: -17px !important; */
 }
+.tp-rightarrow.tparrows.zeus {
+    display: none !important;
+}
+.tp-leftarrow, .tparrows, .zeus{
+    display: none !important;
+}
