@@ -67,6 +67,35 @@
 ------------------------*/
 
 /** Variables **/
+
+@font-face {
+    font-family: "BentonSans Black";
+    src: url(../fonts/BentonSansBlack.otf);
+}
+@font-face {
+    font-family: "BentonSans Bold";
+    src: url(../fonts/BentonSansBold.otf);
+}
+@font-face {
+    font-family: "BentonSans Book";
+    src: url(../fonts/BentonSansBook.otf);
+}
+@font-face {
+    font-family: "BentonSans Medium";
+    src: url(../fonts/BentonSansMedium.otf);
+}
+@font-face {
+    font-family: "BentonSans Regular";
+    src: url(../fonts/BentonSansRegular.otf);
+}
+#site-header-menu #site-navigation .menu ul > li > a{
+    font-family: "BentonSans Medium";
+}
+.featured-imagebox-post.ttm-box-view-top-image .ttm-box-post-date, a.ttm-btn.ttm-normal-btn-font, .ttm-pricing-plan .ttm-ptablebox-price, .ttm-pricing-plan .ttm-ptablebox-frequency, .ttm-tabs-style-classic ul.tabs li a span, .tp-caption.main-font{
+    /* font-family: "BentonSans Medium" !important; */
+    font-family: "BentonSans Regular" !important;
+}
+
 article,
 aside,
 details,
@@ -521,7 +550,7 @@ a {
     left: 0;
     /* color:#fff; */
     top: 0;
-    background-color: #ea7d69;
+    background-color: #ea7a66;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -3467,7 +3496,7 @@ border-radius: 2em;
     color: #fff;
     font-weight: 600;
     font-size: 14px;
-    background:#ea7d69;
+    background:#ea7a66;
     box-shadow: 0 10px 20px 0px rgba(137, 173, 255, 0.2);
     position: relative;
     border: 0px;
@@ -3520,7 +3549,7 @@ border-radius: 2em;
     text-align: center !important;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40% !important;
     background-color: #fff !important;
-    color: #ea7d69 !important;
+    color: #ea7a66 !important;
     -webkit-transition: 0.5s !important;
     transition: 0.5s !important;
     display: inline-block !important;
@@ -3682,7 +3711,7 @@ border-radius: 2em;
     position: absolute;
     left: 0;
     top: 0;
-    color: #ea7d69;
+    color: #ea7a66;
     font-size: 35px;
   }
   
@@ -3780,7 +3809,7 @@ border-radius: 2em;
     margin-top: 35px;
   }
   .fa-check-circle{
-      color:#ea7d69;
+      color:#ea7a66;
   }
   .ulespecialidadetabs{
     margin-top: 10px !important;
@@ -3942,7 +3971,7 @@ border-radius: 2em;
       z-index: -1;
       top: -16px;
       right: -16px;
-      background: #ea7d69;
+      background: #ea7a66;
       height: 32px;
       width: 32px;
       border-radius: 32px;
@@ -4272,7 +4301,7 @@ border-radius: 2em;
 .fa-phone-office {
     top: 7px;
     font-size: 20px;
-    color: #ea7d69;
+    color: #ea7a66;
     position: absolute;
     left: 0px;
 }
@@ -4399,7 +4428,7 @@ border-radius: 2em;
     transform: translate(-50%, -50%);
     font-size: 58px;
     transition: 0.7s;
-    color: #ea7d69;
+    color: #ea7a66;
 }
 
 .card-links .face {

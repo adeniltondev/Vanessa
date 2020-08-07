@@ -1937,7 +1937,7 @@ body {
     font-size: 12px;
     padding-top: 9px;
     left: 10px;
-    background-color: #ea7d69 !important;
+    background-color: #ea7a66 !important;
     border-radius: 5px;
 }
 
@@ -5363,7 +5363,7 @@ text-align: center;
     margin-top: 69px;
 }
 .ttm-list.ttm-list-style-icon li i{
-   color:#ea7d69;
+   color:#ea7a66;
 }
 .saibamaisespe h5::before{
     color:#a95e62 !important;
