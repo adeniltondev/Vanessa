@@ -2836,8 +2836,9 @@ body {
     background-color: transparent;
     border: none;
     border-radius: 11px;
-    padding: 9px 15px;
+    padding: 16px 15px;
     box-shadow: 0 0 13px 1px #dedede;
+    margin-bottom: 10px;
 }
 
 .wrap-form.ttm-contactform input[type="submit"] {

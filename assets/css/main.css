@@ -3816,6 +3816,7 @@ border-radius: 2em;
     border-radius: 5px;
     padding: 25px;
     margin-bottom: 20px;
+    height: 98%;
 }
 .card-sobre h1{
     text-align: center;
@@ -4574,4 +4575,7 @@ border-radius: 2em;
 }
 .margin-bottom{
     margin-bottom: -7px !important;
+}
+#ttm-contactform {
+    margin-top: 50px;
 }
