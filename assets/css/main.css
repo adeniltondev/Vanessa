@@ -94,8 +94,8 @@
 .featured-imagebox-post.ttm-box-view-top-image .ttm-box-post-date, a.ttm-btn.ttm-normal-btn-font, .ttm-pricing-plan .ttm-ptablebox-price, .ttm-pricing-plan .ttm-ptablebox-frequency, .ttm-tabs-style-classic ul.tabs li a span, .tp-caption.main-font{
     font-family: "BentonSans Regular" !important;
 }
-/* .section-title .title-desc p{
-    font-family: "BentonSans Bold" !important; */
+.section-title .title-desc p{
+     font-family: "BentonSans Regular" !important;
 }
 article,
 aside,
