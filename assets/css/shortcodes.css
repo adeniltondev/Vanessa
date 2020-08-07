@@ -799,7 +799,7 @@
 
 .ttm-btn.ttm-btn-size-sm.ttm-icon-btn-right {
     padding-right: 39px;
-    color:#a6555b;
+    color:#a95e62;
 }
 
 .ttm-btn.ttm-btn-size-sm.ttm-icon-btn-left {
@@ -1937,7 +1937,7 @@ body {
     font-size: 12px;
     padding-top: 9px;
     left: 10px;
-    background-color: #e59e96 !important;
+    background-color: #ea7d69 !important;
     border-radius: 5px;
 }
 
@@ -2710,7 +2710,7 @@ body {
     content: "\e61a";
     font-weight: bold;
     font-size: 16px;
-    background-color: #a6555b;
+    background-color: #a95e62;
     color: #ffffff !important;
     height: 100%;
     top: 0px;
@@ -2723,7 +2723,7 @@ body {
     content: "\e622";
     font-family: "themify";
     background-color: white;
-    color: #a6555b !important;
+    color: #a95e62 !important;
     height: 100%;
     top: 0px;
     line-height: 30px;
@@ -4553,10 +4553,13 @@ ul.ttm-list {
 }
 
 .logo {
-    width: 19%;
+    width: 12%;
     left: 0px;
     position: absolute;
     margin-top: 22px;
+    background-color: white;
+    z-index: 1;
+    top: -21px;
 }
 
 .ttm-stickable-header.fixed-header {
@@ -4575,7 +4578,7 @@ ul.ttm-list {
 }
 
 .btn-whatsapp {
-    background-color: #a6555b;
+    background-color: #a95e62;
     color: white;
     border-radius: 50px;
     position: relative;
@@ -4773,7 +4776,7 @@ option {
 }
 
 .btn-agendar {
-    background-color:#a6555b;
+    background-color:#a95e62;
     color: white;
     top: 7px;
     border: none;
@@ -4806,7 +4809,7 @@ option {
 }
 
 .whatsapp {
-    background-color: #a6555b;
+    background-color: #a95e62;
     position: fixed;
     margin-bottom: 56px;
     bottom: 0px;
@@ -4865,14 +4868,14 @@ option {
 .btn-agendarfooter {
     background: #ffffff;
     border-radius: 50px;
-    color: #a6555b;
+    color: #a95e62;
     width: 82%;
     line-height: 0px;
     padding-top: 15px;
     padding-bottom: 18px;
 }
 .btn-agendarfooter:hover a{
-    background:#a6555b;
+    background:#a95e62;
     border-radius: 50px;
     color: #fff;
     width: 82%;
@@ -4910,7 +4913,7 @@ option {
 }
 
 .bgmarque {
-    background:#a6555b7a !important;
+    background:#a95e627a !important;
 }
 
 .ttm-row.row-title-style4-section {
@@ -4940,7 +4943,7 @@ option {
     color:#888 !important;
 }
 .bgroxo{
-    background: #a6555b !important;
+    background: #a95e62 !important;
 }
 /*================================================
 Subscribe Area CSS
@@ -5015,7 +5018,7 @@ Subscribe Area CSS
     padding: 1px 50px 0 25px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    background: #a6555b;
+    background: #a95e62;
     height: 55px;
     color: #ffffff;
     display: inline-block;
@@ -5045,7 +5048,7 @@ Subscribe Area CSS
   .newsletter-form button:hover, .newsletter-form button:focus {
     -webkit-box-shadow: unset !important;
             box-shadow: unset !important;
-    background: #a6555b !important;
+    background: #a95e62 !important;
     color: #ffffff !important;
   }
   
@@ -5061,11 +5064,11 @@ Subscribe Area CSS
     color: #ffffff;
   }
   .btn-primary {
-    background: #a6555b;
+    background: #a95e62;
     color: #ffffff;
 }
 .btn-primary:hover{
-    background: #a6555b;
+    background: #a95e62;
 }
 .btn {
     border: none;
@@ -5122,7 +5125,7 @@ Subscribe Area CSS
     margin-bottom: 150px;  
 }
 .colorcomofunciona{
-    background: #a6555b !important;
+    background: #a95e62 !important;
     box-shadow: 0 0 12px 6px #f9fbfb;
     border-radius: 5px;
 }
@@ -5157,7 +5160,7 @@ Subscribe Area CSS
    background: #000 !important;
 }
 .bg{
-    background-color: #a6555b !important;
+    background-color: #a95e62 !important;
 }
 
 @media (min-width: 576px){
@@ -5177,7 +5180,7 @@ Subscribe Area CSS
     height: 35px;
     line-height: 33px;
     border-radius: 50%;
-    background-color: #a6555b;
+    background-color: #a95e62;
     text-align: center;
     font-size: 19px;
 }
@@ -5310,7 +5313,7 @@ text-align: center;
     top: -20px;
 }
 .btn-saiba-mais-home{
-    background-color: #a6555b !important;
+    background-color: #a95e62 !important;
     color: white !important;
     width: 58% !important;
     border-radius: 50px !important;
@@ -5325,7 +5328,7 @@ text-align: center;
     background: none !important;
 }
 .btn-saiba-mais-home:hover{
-    background-color: #a6555b !important;
+    background-color: #a95e62 !important;
     color:#fff;
 }
 .tracoquemsoueu h5::after{
@@ -5359,8 +5362,8 @@ text-align: center;
     margin-top: 69px;
 }
 .ttm-list.ttm-list-style-icon li i{
-   color:#e59e96;
+   color:#ea7d69;
 }
 .saibamaisespe h5::before{
-    color:#a6555b !important;
+    color:#a95e62 !important;
 }

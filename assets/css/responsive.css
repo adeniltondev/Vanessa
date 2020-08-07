@@ -217,8 +217,8 @@
 	    border-left: 1px solid #f1f1f1;
 	}
 	.ttm-header-style-stackcenter .ttm-header-wrap .ttm-stickable-header-w{
-	    display: block;
-	    border-top: 2px solid #f1f1f1;
+	    /* display: block;
+	    border-top: 2px solid #f1f1f1; */
 	}
 	.ttm-header-style-stackcenter .ttm-header-wrap .col-sm-4.col-md-3 .widget-right,
 	.ttm-header-style-stackcenter .ttm-header-wrap .col-sm-4.col-md-3 .widget-left {

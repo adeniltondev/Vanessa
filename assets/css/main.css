@@ -521,7 +521,7 @@ a {
     left: 0;
     /* color:#fff; */
     top: 0;
-    background-color: #e59e96;
+    background-color: #ea7d69;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -1255,7 +1255,7 @@ div.product .summary .price .Price-amount,
 .featured-imagebox-team.ttm-team-box-view-overlay-style2 .featured-title h5 a:hover,
 .ttm-icon.ttm-icon_element-color-skincolor i,
 .widget ul#menu-footer-services li a:hover {
-    color: #a6555b;
+    color: #a95e62;
 }
 
 h1.ttm-textcolor-skincolor,
@@ -2552,7 +2552,7 @@ ul.ttm-pricelist-block li span {
 
 .footer .ttm-textcolor-white {
     color: rgba(255, 255, 255, .6);
-    background: #a6555b;
+    background: #a95e62;
 }
 
 .footer .widget .ttm-btn.ttm-btn-size-md {
@@ -2688,7 +2688,7 @@ ul.ttm-pricelist-block li span {
     display: block;
     background-color: #fff;
     font-size: 19px;
-    color: #a6555b;
+    color: #a95e62;
 }
 
 /** menu-footer-services **/
@@ -3460,14 +3460,14 @@ section.error-404 .page-content p {
     height: 100%;
 }
 .ttm-header-icons .ttm-header-search-link a:hover, .ttm-icon_element-background-color-skincolor, .ttm-btn-bgcolor-skincolor, .ttm-btn.btn-inline.ttm-btn-color-black:hover .ttm-btn.btn-inline.ttm-btn-underline:before, .ttm-btn.btn-inline.ttm-btn-color-black:hover .ttm-btn.btn-inline.ttm-btn-underline:after, .ttm-tabs ul.tabs li.active a, .ttm-progress-bar .progress .progress-bar.progress-bar-color-bar_skincolor, .newsletter-form input[type="submit"], .ttm-quote-form input[type="submit"], .social-icons.circle li>a:hover, .ttm-btn.ttm-btn-bgcolor-black:hover, .ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border:hover, #totop.top-visible, .ttm-video-btn .ttm-btn-play, .accordion .toggle.toggle-title.ttm-style-classic.active .toggle-title, .ttm-tabs.ttm-tab-style-horizontal ul.tabs li.active a, .ttm-tabs.tabs-for-single-products ul.tabs li:hover a, .ttm-bgcolor-grey .ttm-pagination .page-numbers.current, .ttm-bgcolor-grey .ttm-pagination .page-numbers:hover, .mailchimp-inputbox button[type="submit"], a.checkout-button:hover, .coupon button:hover, .ttm-cart-form button:hover, .place-order button:hover, .ttm-topbar-wrapper .ttm-fbar-btn, .section-title h5:after, .section-title h5:before, .ttm-btn.btn-inline.ttm-btn-underline:hover:after, .ttm-icon.ttm-icon_element-background-skincolor, .ttm-video-icon .ttm-icon:before, .ttm-video-icon .ttm-icon:after, .event-slide.owl-theme .owl-controls .owl-nav div:hover, .footer .social-icons li>a:hover, [data-tooltip]:focus:after, [data-tooltip]:hover:after, .widget ul#menu-footer-services li a:before, .ttm-newsletter-box input[type="submit"], .featured-icon-box.style4:hover, .ttm-processbox-wrapper .ttm-processbox .process-num, .featured-imagebox-team .ttm-social-links-wrapper ul li a:hover, .row-title u:after, .featured-imagebox-team.ttm-team-box-view-overlay .featured-iconbox a, .ttm-ptablebox-featured-col .ttm-ptablebox-title, .ttm-feature-plans .ttm-static-box-content, .ttm-tabs-style-classic ul.tabs li.active a:after, .widget.widget-nav-menu ul li.active a, .widget.widget-nav-menu ul li:hover a, .tab-inner-heading, .sidebar .widget .widget-title:after, .sidebar .widget .tagcloud a:hover, .ttm-pagination .page-numbers.current, .ttm-pagination .page-numbers:hover, .featured-imagebox-team.ttm-team-box-view-overlay.ttm-box-view-top-image:hover .ttm-box-bottom-content, .sidebar .widget_product_categories li span, .sidebar .widget-categories li span, .comments-area .media-body a.comment-reply-link, .products .product:hover .ttm-product-content .add-to-cart-btn a:after, .products .product .ttm-shop-icon a:hover, div.product ul.tabs li.active a:before, div.product ul.tabs li a, .product .onsale, .Price-amount.amount ins, .ttm-team-social-links-wrapper ul li a, .ttm-header-style-overlay .ttm-header-icons .ttm-header-cart-link a:hover, .ttm-header-style-overlay .ttm-header-icons .ttm-header-search-link a:hover, .accordion .toggle.active .toggle-title {
-    background-color: #a6555b !important;
+    background-color: #a95e62 !important;
 }
 .ttm-tabs:not(.ttm-tabs-style-classic) ul.tabs li a {
 border-radius: 2em;
     color: #fff;
     font-weight: 600;
     font-size: 14px;
-    background:#e59e96;
+    background:#ea7d69;
     box-shadow: 0 10px 20px 0px rgba(137, 173, 255, 0.2);
     position: relative;
     border: 0px;
@@ -3520,7 +3520,7 @@ border-radius: 2em;
     text-align: center !important;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40% !important;
     background-color: #fff !important;
-    color: #e59e96 !important;
+    color: #ea7d69 !important;
     -webkit-transition: 0.5s !important;
     transition: 0.5s !important;
     display: inline-block !important;
@@ -3682,7 +3682,7 @@ border-radius: 2em;
     position: absolute;
     left: 0;
     top: 0;
-    color: #e59e96;
+    color: #ea7d69;
     font-size: 35px;
   }
   
@@ -3723,7 +3723,7 @@ border-radius: 2em;
   }
   
   .appointment-content form .form-group .form-control:focus {
-    border-color: #a6555b;
+    border-color: #a95e62;
     padding-left: 2px;
   }
   
@@ -3780,7 +3780,7 @@ border-radius: 2em;
     margin-top: 35px;
   }
   .fa-check-circle{
-      color:#e59e96;
+      color:#ea7d69;
   }
   .ulespecialidadetabs{
     margin-top: 10px !important;
@@ -3804,14 +3804,14 @@ border-radius: 2em;
     line-height: 33px;
     color: #ffffff;
     border-radius: 50%;
-    background-color: #a6555b;
+    background-color: #a95e62;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding: 5px;
 }
 .card-sobre {
     border: 0px;
-    background-color: #a6555b;
+    background-color: #a95e62;
     box-shadow: 0 0 12px 6px #f9fbfb;
     border-radius: 5px;
     padding: 25px;
@@ -3822,7 +3822,7 @@ border-radius: 2em;
     font-size: 22px;
     font-weight: 800;
     text-transform: none;
-        color: #a6555b;
+        color: #a95e62;
 }
 .card-sobre p{
     font-size: 15px;
@@ -3856,6 +3856,7 @@ border-radius: 2em;
     overflow: hidden;
     color: #000;
     box-shadow: 0 0 9px 2px #e7e7e7;
+    height: 203px;
 }
 .card-contato p{
     color:#7d7d7d;
@@ -3874,12 +3875,12 @@ border-radius: 2em;
     position: absolute;
     z-index: -1;
     right: -16px;
-    background: #a6555b;
+    background: #a95e62;
     height: 100%;
     width: 32px;
     border-radius: 32px;
     transform: scale(1);
-    transform-origin: 50% 50%;
+    transform-origin: 59% 50%;
     transition: transform 0.25s ease-out;
     top: 0;
     }
@@ -3923,13 +3924,13 @@ border-radius: 2em;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-    border: 1px solid #a6555b;
+    border: 1px solid #a95e62;
 }
 .card-sobre:hover {
       transition: all 0.2s ease-out;
       box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
       top: -4px;
-      border: 1px solid #a6555b;
+      border: 1px solid #a95e62;
       background-color: white;
       cursor: pointer;
     }
@@ -3940,7 +3941,7 @@ border-radius: 2em;
       z-index: -1;
       top: -16px;
       right: -16px;
-      background: #e59e96;
+      background: #ea7d69;
       height: 32px;
       width: 32px;
       border-radius: 32px;
@@ -4118,7 +4119,7 @@ border-radius: 2em;
     -webkit-animation-name: scroll;
     animation-name: scroll;
     font-size: 36px;
-    color: #a6555b;
+    color: #a95e62;
 }
 
 @-webkit-keyframes scroll {
@@ -4270,7 +4271,7 @@ border-radius: 2em;
 .fa-phone-office {
     top: 7px;
     font-size: 20px;
-    color: #e59e96;
+    color: #ea7d69;
     position: absolute;
     left: 0px;
 }
@@ -4279,12 +4280,12 @@ border-radius: 2em;
     border-radius: 5px;
 }
 .btn-contato{
-    background: #a6555b;
+    background: #a95e62;
     width: 100%;
     box-shadow: 0 0 8px 2px #ebebeb;
 }
 .btn-contato:hover{
-    background: #a6555b !important;
+    background: #a95e62 !important;
 }
 .post-title h5 {
     line-height: 29px !important;
@@ -4298,10 +4299,10 @@ border-radius: 2em;
     background: #fff !important;
 }
 .fa-caret-right{
-    color:#a6555b;
+    color:#a95e62;
 }
 .fa-caret-left{
-    color:#a6555b;
+    color:#a95e62;
 }
 .icon::before {
     display: inline-block;
@@ -4323,7 +4324,7 @@ border-radius: 2em;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f054";
-    color:#a6555b;
+    color:#a95e62;
     margin-right: 10px;
   }
   .toggle-content li{
@@ -4397,7 +4398,7 @@ border-radius: 2em;
     transform: translate(-50%, -50%);
     font-size: 58px;
     transition: 0.7s;
-    color: #fcaea7;
+    color: #ea7d69;
 }
 
 .card-links .face {
@@ -4486,7 +4487,7 @@ border-radius: 2em;
     padding-bottom: 100px;
 }
 .btn-card-links{
-    background-color: #a6555b;
+    background-color: #a95e62;
     color: white;
     border: 0px;
     text-transform: none;
@@ -4498,7 +4499,7 @@ border-radius: 2em;
 .btn-card-links:hover{
     color:#fff;
     box-shadow: 0 0 12px 6px #f9fbfb;
-    box-shadow: 0 0 12px 4px #a6555b;
+    box-shadow: 0 0 12px 4px #a95e62;
     padding: 6px;
 }
 .btn-card-links:focus{
@@ -4562,4 +4563,15 @@ border-radius: 2em;
 }
 .margin-bem-vindo{
     margin-top: -213px !important;
+}
+.ulespecialidadetabs:hover svg {
+    color: #a95e62 !important;
+}
+.ulespecialidadetabs li {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.margin-bottom{
+    margin-bottom: -7px !important;
 }
