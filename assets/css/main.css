@@ -4314,7 +4314,11 @@ border-radius: 2em;
     background: #a95e62;
     width: 100%;
     box-shadow: 0 0 8px 2px #ebebeb;
+    color:#fff !important;
 }
+/* form{
+  cursor: none !important;
+} */
 .btn-contato:hover{
     background: #a95e62 !important;
 }
@@ -4578,7 +4582,7 @@ border-radius: 2em;
     line-height: 45px;
     text-align: center;
     border-radius: 50%;
-    color: #cd5c4b;
+    color: #ea7a66;
     font-size: 25px;
     -webkit-transition: .5s;
     transition: .5s;
@@ -4608,4 +4612,10 @@ border-radius: 2em;
 }
 #ttm-contactform {
     margin-top: 50px;
+}
+.tracoquemsoueu h5{
+   color:#ea7a66 !important;
+}
+.bg-especialidade-vanessa{
+    background: #ea7a66 !important;
 }

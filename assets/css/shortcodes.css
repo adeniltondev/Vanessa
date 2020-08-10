@@ -4944,7 +4944,7 @@ option {
     color:#888 !important;
 }
 .bgroxo{
-    background: #a95e62 !important;
+    background: #ea7a66 !important;
 }
 /*================================================
 Subscribe Area CSS
@@ -5126,7 +5126,7 @@ Subscribe Area CSS
     margin-bottom: 150px;  
 }
 .colorcomofunciona{
-    background: #a95e62 !important;
+    background: #ea7a66 !important;
     box-shadow: 0 0 12px 6px #f9fbfb;
     border-radius: 5px;
 }
@@ -5157,8 +5157,11 @@ Subscribe Area CSS
 .listacomofunciona i:hover{
     color: #fff;
 }
+.sobretitulo h5{
+   color:#ea7a66 !important;
+}
 .sobretitulo h5::after{
-   background: #000 !important;
+   background: #ea7a66 !important;
 }
 .bg{
     background-color: #a95e62 !important;
