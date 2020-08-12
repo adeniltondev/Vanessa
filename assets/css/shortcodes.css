@@ -908,7 +908,7 @@
 /** btn-inline **/
 .ttm-btn.btn-inline {
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     padding: 0;
     border: 1px solid transparent;
@@ -4810,7 +4810,7 @@ option {
 }
 
 .whatsapp {
-    background-color: #a95e62;
+    background-color: #ea7a66;
     position: fixed;
     margin-bottom: 56px;
     bottom: 0px;

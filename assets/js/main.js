@@ -560,3 +560,14 @@ jQuery('#totop').on( "click", function() {      // When arrow is clicked
 //   left: 0, 
 //   behavior: 'smooth'
 // });
+
+// box-shadow Menu
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 30) {
+       $('#menu').addClass('floatingnav');
+    }
+    else {
+       $('#menu').removeClass('floatingnav');
+    }
+});
+// box-shadow Menu Fim

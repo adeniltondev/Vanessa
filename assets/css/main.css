@@ -68,7 +68,7 @@
 
 /** Variables **/
 
-@font-face {
+/* @font-face {
     font-family: "BentonSans Black";
     src: url(../fonts/BentonSansBlack.otf);
 }
@@ -87,8 +87,8 @@
 @font-face {
     font-family: "BentonSans Regular";
     src: url(../fonts/BentonSansRegular.otf);
-}
-#site-header-menu #site-navigation .menu ul > li > a{
+} */
+/* #site-header-menu #site-navigation .menu ul > li > a{
     font-family: "BentonSans Medium";
 }
 .featured-imagebox-post.ttm-box-view-top-image .ttm-box-post-date, a.ttm-btn.ttm-normal-btn-font, .ttm-pricing-plan .ttm-ptablebox-price, .ttm-pricing-plan .ttm-ptablebox-frequency, .ttm-tabs-style-classic ul.tabs li a span, .tp-caption.main-font{
@@ -96,7 +96,7 @@
 }
 .section-title .title-desc p{
      font-family: "BentonSans Regular" !important;
-}
+} */
 article,
 aside,
 details,
@@ -1372,7 +1372,7 @@ div.product ul.tabs li a,
 .ttm-header-style-overlay .ttm-header-icons .ttm-header-cart-link a:hover,
 .ttm-header-style-overlay .ttm-header-icons .ttm-header-search-link a:hover,
 .accordion .toggle.active .toggle-title {
-    background-color: rgb(166, 85, 91);
+    background-color: #ea7a66;
 }
 
 .featured-imagebox-post.ttm-box-view-top-image .ttm-box-post-date {
@@ -4621,4 +4621,146 @@ border-radius: 2em;
 }
 .ul-home-form li{
     font-size: 14px !important;
+}
+.top-header {
+    background-color: #ea7a66;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width:100%;
+    z-index: 999;
+  }
+.logo-menu{
+  width: 100px;
+}
+.header-contact-info {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+  
+  .header-contact-info li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    /* font-family: "Rubik", sans-serif; */
+    font-size: 14px;
+  }
+  
+  .header-contact-info li i {
+    color: #fff;
+    margin-right: 4px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 50%;
+    background-color: #a2565f;
+    text-align: center;
+    font-size: 13px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .header-contact-info li:last-child {
+    margin-right: 0;
+  }
+  
+  .header-contact-info li:hover i {
+    background-color: #a2565f;
+    color: #ffffff;
+  }
+  
+  .header-right-content {
+    text-align: right;
+  }
+  .header-contact-info a{
+     color:#fff;
+  }
+  .header-right-content .top-header-social {
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+  
+  .header-right-content .top-header-social li {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  .header-right-content .top-header-social li a {
+    display: block;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 31px;
+    border-radius: 50%;
+    background-color: #a2565f;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .header-right-content .top-header-social li a:hover {
+    color: #ffffff;
+    background-color: #a2565f;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  
+  .header-right-content .top-header-social li:last-child {
+    margin-right: 0;
+  }
+  .navbar-nav .active>.nav-link{
+    color: rgb(234 122 102) !important;
+}
+.nav-link:hover{
+    color:#ea7a66 !important;
+}
+
+.floatingnav {
+    width: calc(100vh - 100px);
+    box-shadow: 0px 2px 14px #f3f3f3;
+    border: 0px;
+}
+.navbar{
+    background-color: white;
+    top: 48px !important;
+    width: 100%;
+}
+.ttm-rt-contact {
+    z-index: 99999;
+    top: 65px;
+    position: fixed;
+    right: 98px;
+}
+.navbar-nav {
+    margin: auto;
+}
+.rev_slider_wrapper {
+    margin-top: 136px;
+}
+.navbar-brand {
+    margin-left: 76px;
+}
+.tp-caption.button.black-button {
+    background-color: #a95e62 !important;
+    border-color: #a95e62 !important;
+}
+.tp-caption.button.black-button:hover {
+    background-color: #ea7a66 !important;
+    border-color: #ea7a66 !important;
+    color:#fff;
+}
+.nav-link {
+    color: rgb(150 106 109) !important;
+    font-size: 18px;
+}
+@media (max-width:2560px)  and (min-width:1440px){
+    .ttm-rt-contact {
+        z-index: 99999;
+        top: 65px;
+        position: fixed;
+        right: 375px;
+    }
 }
