@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/shortcodes.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css" />
@@ -28,6 +28,26 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/fontawesome-app.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/sweetalert2.min.css">
+
+
+    <script src="/assets/js/sweetalert2.all.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/assets/js/imask.js"></script>
+
+
+
+    <script type="text/javascript">
+        // Alert With Input Type
+        $(document).on('click', '#mauticform_input_formpreagendamento_submit', function (e) {
+            swal({
+                type: 'success',
+                //   title: 'Cadastro feito com sucesso',
+                html: '<div class="mauticform-message" id="mauticform_formpreagendamento_message"></div>',
+                confirmButtonText: 'Fechar'
+            })
+        });
+    </script>
 
     <script type="text/javascript">
         /** This section is only needed once per page if manually copying **/
@@ -43,7 +63,7 @@
             head.appendChild(script);
             var MauticDomain = 'https://vanessanogueira.com';
             var MauticLang = {
-                'submittingMessage': "Por favor, aguarde..."
+                'submittingMessage': "Enviando..."
             }
         } else if (typeof MauticSDK != 'undefined') {
             MauticSDK.onLoad();
@@ -55,159 +75,81 @@
 
 <body>
 
- <section>  
-    
-    <div class="top-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <ul class="header-contact-info">
-                    <li><i class="fas fa-phone"></i> Tel: <a href="tel:8532476096">( 85 ) 3247-6096</a></li>
-                    <li><i class="fab fa-whatsapp"></i> <a href="tel:8598487035">( 85 ) 9848-7035</a></li>
-                    <li><i class="far fa-envelope-open"></i> <a href="mailto:vanessanogueiragastro@gmail.com">vanessanogueiragastro@gmail.com</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                <div class="header-right-content">
-                    <ul class="top-header-social">
-                        <li><a target="_bank" rel="noopener" href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li><a target="_bank" rel="noopener" href="https://www.instagram.com/dra.vanessanogueira/"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_bank" rel="noopener" href="https://api.whatsapp.com/send?phone=558598487035&text=Ol%C3%A1,%20bem-vindo%20ao%20meu%20atendimento!"><i
-                                    class="fab fa-whatsapp"></i></a></li>
-                    </ul>
+    <section>
+
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul class="header-contact-info">
+                            <li><i class="fas fa-phone"></i> Tel: <a href="tel:8532476096">( 85 ) 3247-6096</a></li>
+                            <li><i class="fab fa-whatsapp"></i> <a href="tel:8598487035">( 85 ) 9848-7035</a></li>
+                            <li><i class="far fa-envelope-open"></i> <a
+                                    href="mailto:vanessanogueiragastro@gmail.com">vanessanogueiragastro@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="header-right-content">
+                            <ul class="top-header-social">
+                                <li><a target="_bank" rel="noopener" href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a target="_bank" rel="noopener"
+                                        href="https://www.instagram.com/dra.vanessanogueira/"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li><a target="_bank" rel="noopener"
+                                        href="https://api.whatsapp.com/send?phone=558598487035&text=Ol%C3%A1,%20bem-vindo%20ao%20meu%20atendimento!"><i
+                                            class="fab fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</section>
+    </section>
     <!--page start-->
     <div class="page">
-<!-- <div class="top-header"> -->
-<section class="menu">
-<div class="container">
-        <nav id="menu"  class="navbar navbar-expand-lg fixed-top navbar-light">
-            <a class="navbar-brand" href="/"><img class="logo-menu" src="/assets/images/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/sobre.html">Sobre</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/especialidades.html">Especialidades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/perguntasfrequentes.html">Perguntas Frequentes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contato.html">Contato</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-            <div class="ttm-rt-contact">
-    <a rel="noopener" target="_bank"
-        href="https://api.whatsapp.com/send?phone=558598487035&text=Ol%C3%A1,%20bem-vindo%20ao%20meu%20atendimento!">
-        <button class="btn-whatsapp">WhatsApp</button>
-    </a>
-</div>
-</div>
-</section>
-
-<!-- 
-        <header id="masthead" class="header ttm-header-style-stackcenter">
-            <div class="ttm-header-wrap">
-                <div class="top-header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <ul class="header-contact-info">
-                                    <li><i class="fas fa-phone"></i> Tel: <a href="tel:8532476096">( 85 ) 3247-6096</a></li>
-                                    <li><i class="fab fa-whatsapp"></i> <a href="tel:85998487029">( 85 ) 99848-7029</a></li>
-                                    <li><i class="far fa-envelope-open"></i> <a href="mailto:arthurarraisgastro@gmail.com">arthurarraisgastro@gmail.com</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="header-right-content">
-                                    <ul class="top-header-social">
-                                        <li><a target="_bank" rel="noopener" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li><a target="_bank" rel="noopener" href="https://www.instagram.com/drarthurarrais/"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a target="_bank" rel="noopener" href="https://api.whatsapp.com/send?phone=5585998487029&amp;text=Olá, bem-vindo ao nosso atendimento!"><i
-                                                    class="fab fa-whatsapp"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- <div class="top-header"> -->
+        <section class="menu">
+            <div class="container">
+                <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-light">
+                    <a class="navbar-brand" href="/"><img class="logo-menu" src="/assets/images/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/especialidades.html">Especialidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/perguntasfrequentes.html">Perguntas Frequentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contato.html">Contato</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div id="ttm-stickable-header-w" class="ttm-stickable-header-w ttm-bgcolor-white clearfix">
-                                <div id="site-header-menu" class="site-header-menu">
-                                    <div class="site-header-menu-inner ttm-stickable-header">
-                                        <div class="container">
-                                            <div id="site-navigation" class="site-navigation">
-                                                <div class="ttm-menu-toggle">
-                                                    <input type="checkbox" id="menu-toggle-form">
-                                                    <label for="menu-toggle-form" class="ttm-menu-toggle-block">
-                                                        <span class="toggle-block toggle-blocks-1"></span>
-                                                        <span class="toggle-block toggle-blocks-2"></span>
-                                                        <span class="toggle-block toggle-blocks-3"></span>
-                                                    </label>
-                                                </div>
-                                                <nav id="menu" class="menu">
-                                                    <a href="/"><img class="logo" src="/assets/images/logo.png"></a>
-                                                    <ul class="dropdown">
-                                                        <li class="active">
-                                                            <a href="#">Home</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/sobre.html">Sobre</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/especialidades.html">Especialidades</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Blog</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/perguntasfrequentes.html">Perguntas Frequentes</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/contato.html">Contato</a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                                <div class="ttm-rt-contact">
-                                                    <a rel="noopener" target="_bank"
-                                                        href="https://api.whatsapp.com/send?phone=558598487035&text=Ol%C3%A1,%20bem-vindo%20ao%20meu%20atendimento!">
-                                                        <button class="btn-whatsapp">WhatsApp</button>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </nav>
+                <div class="ttm-rt-contact">
+                    <a rel="noopener" target="_bank"
+                        href="https://api.whatsapp.com/send?phone=558598487035&text=Ol%C3%A1,%20bem-vindo%20ao%20meu%20atendimento!">
+                        <button class="btn-whatsapp">WhatsApp</button>
+                    </a>
                 </div>
             </div>
-        </header> -->
-  
+        </section>
+
 
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay"
             data-alias="classic4export" data-source="gallery">
@@ -747,88 +689,36 @@
                             <div class="featured-imagebox featured-imagebox-post ttm-box-view-top-image box-shadow1">
                                 <div class="ttm-post-featured-outer">
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="/assets/images/blog/04.jpg" alt="">
-                                    </div>
-                                    <div class="ttm-box-post-date">
-                                        <span class="entry-month">14</span>
-                                        MARÇO
+                                        <img class="img-fluid" src="/assets/images/pancreas.png" alt="">
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-post">
                                     <div class="post-title featured-title">
-                                        <h5><a href="" tabindex="-1">Quanto você realmente precisa comer dia?</a></h5>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line comments-link"><i
-                                                class="fa fa-comment ttm-textcolor-skincolor"></i> 3 Comentários</span>
-                                        <span class="ttm-meta-line byline"><i
-                                                class="fa fa-user ttm-textcolor-skincolor"></i> Alex</span>
+                                        <h5><a href="" tabindex="-1">Gastroenterologia</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="featured-imagebox featured-imagebox-post ttm-box-view-top-image box-shadow1">
                                 <div class="ttm-post-featured-outer">
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="/assets/images/blog/07.jpg" alt="">
-                                    </div>
-                                    <div class="ttm-box-post-date">
-                                        <span class="entry-month">05</span>
-                                        JUNHO
+                                        <img class="img-fluid" src="/assets/images/endoscopia_terapeutica.png" alt="">
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-post">
                                     <div class="post-title featured-title">
-                                        <h5><a href="" tabindex="-1">Quanto você realmente precisa comer dia?</a></h5>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line comments-link"><i
-                                                class="fa fa-comment ttm-textcolor-skincolor"></i> 6 Comentários</span>
-                                        <span class="ttm-meta-line byline"><i
-                                                class="fa fa-user ttm-textcolor-skincolor"></i> Maria</span>
+                                        <h5><a href="" tabindex="-1">Endoscopia Digestiva Alta</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="featured-imagebox featured-imagebox-post ttm-box-view-top-image box-shadow1">
                                 <div class="ttm-post-featured-outer">
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="/assets/images/blog/03.jpg" alt="">
-                                    </div>
-                                    <div class="ttm-box-post-date">
-                                        <span class="entry-month">11</span>
-                                        NOVEMBRO
+                                        <img class="img-fluid" src="/assets/images/Colonoscopia_diagnotica.png" alt="">
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-post">
                                     <div class="post-title featured-title">
-                                        <h5><a href="" tabindex="-1">Quanto você realmente precisa comer dia?</a></h5>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line comments-link"><i
-                                                class="fa fa-comment ttm-textcolor-skincolor"></i> 3 Comentários</span>
-                                        <span class="ttm-meta-line byline"><i
-                                                class="fa fa-user ttm-textcolor-skincolor"></i> Carla</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="featured-imagebox featured-imagebox-post ttm-box-view-top-image box-shadow1">
-                                <div class="ttm-post-featured-outer">
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="/assets/images/blog/09.jpg" alt="">
-                                    </div>
-                                    <div class="ttm-box-post-date">
-                                        <span class="entry-month">20</span>
-                                        AGOSTO
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-post">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="" tabindex="-1">Quanto você realmente precisa comer dia?</a></h5>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line comments-link"><i
-                                                class="fa fa-comment ttm-textcolor-skincolor"></i> 2 Comentários</span>
-                                        <span class="ttm-meta-line byline"><i
-                                                class="fa fa-user ttm-textcolor-skincolor"></i> Junior</span>
+                                        <h5><a href="" tabindex="-1">Colonoscopia</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -972,8 +862,8 @@
                                                                 enctype="multipart/form-data">
                                                                 <div class="mauticform-error"
                                                                     id="mauticform_formpreagendamento_error"></div>
-                                                                <div class="mauticform-message"
-                                                                    id="mauticform_formpreagendamento_message"></div>
+                                                                <!-- <div class="mauticform-message"
+                                                                    id="mauticform_formpreagendamento_message"></div> -->
 
                                                                 <div class="mauticform-innerform">
 
@@ -1101,8 +991,8 @@
                                                                                             id="mauticform_input_formpreagendamento_telefone"
                                                                                             name="mauticform[telefone]"
                                                                                             value=""
-                                                                                            class="form-control mauticform-input"
-                                                                                            type="tel">
+                                                                                            class="form-control mauticform-input input-telefone"
+                                                                                            type="text">
                                                                                         <span
                                                                                             class="mauticform-errormsg"
                                                                                             style="display: none;">Obrigatório</span>
@@ -1448,6 +1338,25 @@
                 WhatsApp</a>
         </div>
 
+
+        <script type="text/javascript">
+            /*
+      https://unmanner.github.io/imaskjs/
+      */
+      const phoneMaskSelector = '.input-telefone';
+      const phoneMaskInputs = document.querySelectorAll(phoneMaskSelector);
+      
+      const masksOptions = {
+        phone: {
+          mask: '(00) 00000-0000'
+        }
+      };
+      
+      for(const item of phoneMaskInputs) {
+        new IMask(item, masksOptions.phone);
+      }
+      
+          </script>
         <script src="assets/js/all.js"></script>
         <script src="assets/js/jquery.nice-select.min.js"></script>
         <script src="/assets/js/jquery.min.js"></script>

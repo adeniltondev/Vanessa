@@ -2647,7 +2647,7 @@ ul.ttm-pricelist-block li span {
 }
 
 .footer-logo img {
-    max-height: 150px;
+    max-height: 122px;
     width: auto;
     position: relative;
     top: -2px;
@@ -2936,6 +2936,7 @@ ul.footer-nav-menu li:last-child:after {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 136px;
 }
 
 div.ttm-page-title-row>.ttm-bg-layer {
@@ -3765,7 +3766,7 @@ border-radius: 2em;
     border-bottom: 1px solid #eeeeee;
     height: unset;
     line-height: initial;
-    padding: 0 35px 8px 0;
+    padding: 12px 36px 9px 0;
     font-size: 17px;
     font-weight: 600;
   }
@@ -4764,3 +4765,61 @@ border-radius: 2em;
         right: 375px;
     }
 }
+.swal2-popup .swal2-styled{
+   background: #ea7a66 !important;
+   border: 0px !important;
+   width: 100% !important;
+}
+#mauticform_formpreagendamento_message{
+    color:#ea7a66 !important;
+}
+.swal2-popup .swal2-styled:focus{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 0px rgba(50,100,150,.4) !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none !important;
+}
+.btn-primary:hover {
+   background: #ea7a66 !important;
+}
+/* .btn-agendar-pre:hover{
+    background:#ea7a66;
+}
+.btn-primary:not(:disabled):not(.disabled){
+    box-shadow:#ea7a66;
+    background-color: #ea7a66 !important;
+} */
+@media(min-width:360px) and (max-width:640px){
+    .top-header{
+        display: none;
+    }
+    .btn-whatsapp{
+        display: none;
+    }
+    .navbar {
+        top: 0px !important;
+    }
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .logo-menu {
+        width: 145px;
+    }
+    .card-sobre{
+        padding: 32px 0px;
+    }
+    .col-mobile{
+        padding:0px;
+    }
+    .card-contato{
+        height: 288px;
+    }
+    .whatsapp {
+        width: 42%;
+}
+.newsletter-form {
+    margin-top: 47px;
+}
+.atendimento {
+    margin-left: 0px;
+}}

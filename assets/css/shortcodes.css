@@ -574,8 +574,11 @@
 }
 
 .section-title .title-desc {
-    margin-top: 14px !important;
+    margin-top: 15px !important;
     text-align: justify;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .section-title .title-header {
