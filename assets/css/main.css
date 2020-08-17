@@ -4404,7 +4404,7 @@ border-radius: 2em;
 
 .card-links:nth-child(1) .icon {
     background: #fff;
-    /* border-radius: 5px; */
+    border-radius: 5px;
 }
 
 .card-links:nth-child(2) .icon {
@@ -4445,14 +4445,15 @@ border-radius: 2em;
 
 .card-links .face.face1 {
     position: relative;
-    background: #333;
+    background: #fff;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
     top: 70px;
-    box-shadow: 0 0 12px 6px #f9fbfb;
+    box-shadow: 0 0 12px 6px #d2d2d2;
 }
 
 .card-links:hover .face.face1{
@@ -4822,4 +4823,37 @@ border-radius: 2em;
 }
 .atendimento {
     margin-left: 0px;
-}}
+}
+.footer-logo img{
+    right: 0px;
+}
+.titulo-mobile-perguntas{ 
+    font-size: 30px !important;
+}
+.card-links .face {
+    width: 100%;
+}
+.col-grid-info{
+     margin-top: -134px;
+}
+.col-grid-etica-home{
+    margin-bottom: 17px;
+}
+.appointment-content{
+    height: 100%;
+    width: 100%;
+}
+.margin-top{
+    margin-top: 40px;
+}
+.paddin-agendamento{
+    padding: 0px;
+}
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 0%);
+}
+form#mauticform_formcontato {
+    margin-top: 38px;
+}
