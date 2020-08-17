@@ -4863,5 +4863,20 @@ form#mauticform_formcontato {
 }
 .modal-backdrop{
     background: transparent !important;
+    width: auto !important;
+    height: 100% !important;
+}
+.modal-header {
+    background-color: #ea7a66;
+}
+.modal-content {
+    border: 3px solid rgb(151 117 175 / 0%);
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #ea7a66;
+    border-color: #6c757d;
+    padding: 10px;
+    width: 100%;
 }
 }
