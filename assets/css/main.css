@@ -4857,3 +4857,11 @@ border-radius: 2em;
 form#mauticform_formcontato {
     margin-top: 38px;
 }
+@media (min-width:360px) and (max-width: 640px){
+.ttm-footer2-left, .ttm-footer2-right {
+    text-align: center !important;
+}
+.modal-backdrop{
+    background: transparent !important;
+}
+}
