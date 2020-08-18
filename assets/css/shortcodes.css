@@ -1956,6 +1956,8 @@ body {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
+    border-radius: 5px;
+    box-shadow: rgba(38, 38, 38, 0.2) 0px 4px 8px;
 }
 
 .featured-imagebox-post.ttm-box-view-top-image:not(.post-slide-gallery):hover .ttm-post-featured-outer .featured-thumbnail img {
@@ -1964,6 +1966,7 @@ body {
     -moz-transform: scale3d(1.05, 1.05, 1.05);
     -ms-transform: scale3d(1.05, 1.05, 1.05);
     -o-transform: scale3d(1.05, 1.05, 1.05);
+    box-shadow: rgba(38, 38, 38, 0.2) 0px 4px 8px;
 }
 
 .featured-imagebox-post.ttm-box-view-top-image .featured-content-post {

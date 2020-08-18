@@ -4879,4 +4879,42 @@ form#mauticform_formcontato {
     padding: 10px;
     width: 100%;
 }
+.accordion .toggle:not(:first-child) .toggle-title {
+    margin-top: 10px;
+    /* width: 342px; */
+    height: 100%;
+    padding: 18px 37px 13px 10px !important;
+}
+.accordion .toggle:not(:last-child):not(.active) .toggle-title{
+    height: 100%;
+    padding: 18px 37px 13px 10px !important;
+}
+.featured-imagebox-service .ttm-box-bottom-content .featured-title h5, .featured-imagebox.featured-imagebox-post .featured-title h5 {
+    line-height: 25px;
+    font-size: 23px;
+    padding-top: 17px;
+}
+.subgastro {
+    text-align: justify;
+    width: 78%;
+}
+.marginsobre {
+    margin-top: 14px;
+}
+.titulo-dra{
+   font-size:30px !important;
+}
+.titulo-sobre-doutora {
+    font-size: 30px;
+}
+.card-sobre {
+    padding: 33px 13px;
+}
+.tituloeficiencia {
+    font-size: 27px !important;
+}
+.comofunciona {
+    margin-top: -111px;
+    margin-bottom: -12px;
+}
 }
