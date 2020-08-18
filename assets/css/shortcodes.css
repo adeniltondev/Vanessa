@@ -4594,12 +4594,13 @@ ul.ttm-list {
     padding: 10px 38px 12px 38px;
     box-shadow: 0 0 13px 1px #dedede;
     width: 100%;
+    font-weight: 600;
 }
 
 .btn-whatsapp:hover {
-    color: #000 !important;
-    background-color: #fba199;
-    font-weight: 400;
+    color: #fff !important;
+    background-color: #ea7a66;
+    font-weight: 600;
 }
 
 .appointment-content {
