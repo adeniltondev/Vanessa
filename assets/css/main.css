@@ -4918,3 +4918,38 @@ form#mauticform_formcontato {
     margin-bottom: -12px;
 }
 }
+.swal2-icon.swal2-success .swal2-success-ring {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #a95e62 !important;
+    border-radius: 50%;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    z-index: 2;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line][class$=long] {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #a95e62;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip] {
+    width: 25px;
+    left: 14px;
+    top: 46px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #a2565f !important;
+}
+.swal2-popup .swal2-styled {
+    color: #ffffff !important;
+    font-size: 19px !important;
+}
+.mauticform-message {
+    color: #a95e62 !important;
+}
