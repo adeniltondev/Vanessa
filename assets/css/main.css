@@ -4953,3 +4953,8 @@ form#mauticform_formcontato {
 .mauticform-message {
     color: #a95e62 !important;
 }
+.des-especialidade{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+}
