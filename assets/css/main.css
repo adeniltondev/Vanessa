@@ -3512,6 +3512,7 @@ border-radius: 2em;
     margin: auto;
     padding-bottom: 65px;
     padding-top: 2px;
+    font-size:16px !important;
 }
 .titulotabs {
     margin-top: 65px;
