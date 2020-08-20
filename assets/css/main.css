@@ -4987,14 +4987,14 @@ form#mauticform_formcontato {
         z-index: 99999 !important;
         height: 100%;
         right: 0px;
-        margin-top: 112px !important;
+        margin-top: 69px !important;
         color: white !important;
     }
     .sub-titulo-banner p{
         max-width: 100%;
         position: relative;
         height: 100%;
-        margin-top: 33px !important;
+        margin-top: 111px !important;
         left: 10px !important;
         color: white;
         white-space: break-spaces;
@@ -5085,14 +5085,42 @@ form#mauticform_formcontato {
         z-index: 99999 !important;
         height: 100%;
         right: 0px;
-        margin-top: 112px !important;
+        margin-top: 58px !important;
         color: white !important;
     }
     .sub-titulo-banner p{
         max-width: 100%;
         position: relative;
         height: 100%;
-        margin-top: 33px !important;
+        margin-top: 126px !important;
+        left: 10px !important;
+        color: white;
+        white-space: break-spaces;
+        width: 233px !important;
+        text-align: center !important;
+        font-size: 19px !important;
+        line-height: 22px !important;
+        margin-right: 10px !important;
+    }
+    .img-banner {
+        background: url(/assets/images/bannermobile.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+}}
+@media (min-width:375px) and (max-width:812px){  
+    .titulo-banner{
+        left: 0px;
+        z-index: 99999 !important;
+        height: 100%;
+        right: 0px;
+        margin-top: 58px !important;
+        color: white !important;
+    }
+    .sub-titulo-banner p{
+        max-width: 100%;
+        position: relative;
+        height: 100%;
+        margin-top: 110px !important;
         left: 10px !important;
         color: white;
         white-space: break-spaces;
