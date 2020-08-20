@@ -4980,36 +4980,29 @@ form#mauticform_formcontato {
         text-align: center;
     }
     .img-banner {
-        height: 71% !important;
+        height: 100% !important;
     }
     .titulo-banner{
-        left: 64px;
+        left: 0px;
         z-index: 99999 !important;
-        /* position: absolute !important; */
         height: 100%;
-        width: 150px !important;
         right: 0px;
-        margin-right: 174px !important;
-        margin-top: 19px !important;
+        margin-top: 112px !important;
+        color: white !important;
     }
     .sub-titulo-banner p{
-        width: 279px !important;
-        transition: none 0s ease 0s;
-        text-align: inherit;
-        line-height: 15px;
-        border-width: 0px;
-        padding: 0px;
-        letter-spacing: 0px;
-        font-weight: 700;
-        font-size: 15px;
-        word-break: normal;
-        margin: 0px;
         max-width: 100%;
-        white-space: break-spaces !important;
         position: relative;
         height: 100%;
-        margin-top: 5px !important;
-        left: 42px !important;
+        margin-top: 33px !important;
+        left: 10px !important;
+        color: white;
+        white-space: break-spaces;
+        width: 233px !important;
+        text-align: center !important;
+        font-size: 19px !important;
+        line-height: 22px !important;
+        margin-right: 10px !important;
     }
     .section-title h2.title {
         font-size: 30px !important;
@@ -5044,35 +5037,73 @@ form#mauticform_formcontato {
     line-height: 18px;
     margin-top: -8px;
 }
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #ea7a66;
+    color: white;
+    text-align: center;
+}
+.navbar-collapse a{
+    color:#fff !important;
+}
+.navbar-nav .active>.nav-link {
+    color: rgb(169 94 98) !important;
+}
+.banner-mobile{
+    height: 418px !important;
+}
+.img-banner{
+  background: url(/assets/images/bannermobile.png) !important;
+}
+.img-banner::before{
+    content: "";
+    background: #ea7a6663;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.tp-caption.button.black-button {
+    background-color: #2b343b;
+    border-color: #2b343b;
+    width: 100%;
+    font-size: 13px !important;
+    margin: auto !important;
+    margin-top: -8px !important;
+    margin-right: 10px !important;
+    margin-left: -8px !important;
+}
 }
 @media (min-width:375px) and (max-width:667px){  
     .titulo-banner{
-    left: 74px;
-    z-index: 99999 !important;
-    /* position: absolute !important; */
-    height: 100%;
-    width: 150px !important;
-    right: 0px;
-    margin-right: 184px !important;
-    margin-top: 19px !important;
-}
-.sub-titulo-banner p{
-    width: 295px !important;
-    transition: none 0s ease 0s;
-    text-align: inherit;
-    line-height: 15px;
-    border-width: 0px;
-    padding: 0px;
-    letter-spacing: 0px;
-    font-weight: 700;
-    font-size: 15px;
-    word-break: normal;
-    margin: 0px;
-    max-width: 100%;
-    white-space: break-spaces !important;
-    position: relative;
-    height: 100%;
-    margin-top: 5px !important;
-    left: 50px !important;
-}
-}
+        left: 0px;
+        z-index: 99999 !important;
+        height: 100%;
+        right: 0px;
+        margin-top: 112px !important;
+        color: white !important;
+    }
+    .sub-titulo-banner p{
+        max-width: 100%;
+        position: relative;
+        height: 100%;
+        margin-top: 33px !important;
+        left: 10px !important;
+        color: white;
+        white-space: break-spaces;
+        width: 233px !important;
+        text-align: center !important;
+        font-size: 19px !important;
+        line-height: 22px !important;
+        margin-right: 10px !important;
+    }
+    .img-banner {
+        background: url(/assets/images/bannermobile.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+}}
