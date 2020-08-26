@@ -5135,3 +5135,11 @@ form#mauticform_formcontato {
         background-repeat: no-repeat !important;
         background-size: cover !important;
 }}
+.premiere{
+    margin-top: 119px;
+}
+@media (min-width:360px) and (max-width:640px){
+.premiere{
+    margin-top: 0px;
+}   
+}
